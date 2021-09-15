@@ -1,0 +1,21 @@
+laguage: java
+jdk:
+  - openjdk8
+
+branches:
+  only:
+    - master
+
+# Travics CI 서버 Home
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.gradle'
+
+script: "./gradlew clean build"
+
+# CI 실행 완료 시 메일로 알람
+notification:
+  email:
+    recipients:
+      - happycs0203@naver.com
