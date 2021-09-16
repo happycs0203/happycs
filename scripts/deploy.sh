@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY=/home/ec2-user/app/step2
-PROJECT_NAME=changsu-project-webservice
+PROJECT_NAME=happycs
 
 echo "> Build 파일 복사"
 
