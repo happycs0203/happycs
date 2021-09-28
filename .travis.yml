@@ -20,7 +20,7 @@ before_install:
 before_deploy:
   - zip -r changsu-project-webservice *
   - mkdir -p deploy
-  - mv changsu-project-webservice.zip delply/changsu-project-webservice.zip
+  - mv changsu-project-webservice.zip deploy/changsu-project-webservice.zip
 
 deploy:
   - provider: s3
