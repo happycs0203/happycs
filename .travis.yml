@@ -18,7 +18,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r changsu-project-webservice
+  - zip -r changsu-project-webservice *
   - mkdir -p deploy
   - mv changsu-project-webservice.zip delply/changsu-project-webservice.zip
 
