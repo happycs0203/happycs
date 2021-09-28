@@ -39,7 +39,7 @@ deploy:
     bucket: changsu-project-webservice
     key: changsu-project-webservice.zip
     bundle_type: zip
-    application: changsu-project_webservice
+    application: changsu-project-webservice
     deployment_group: changsu-project-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
