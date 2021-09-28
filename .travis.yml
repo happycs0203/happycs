@@ -40,7 +40,7 @@ deploy:
     key: changsu-project-webservice.zip
     bundle_type: zip
     application: changsu-project_webservice
-    deployment_group: changsu-project_webservice-group
+    deployment_group: changsu-project-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
 
