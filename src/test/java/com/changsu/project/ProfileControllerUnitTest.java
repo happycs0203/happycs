@@ -23,6 +23,8 @@ public class ProfileControllerUnitTest {
 
         String profile = controller.profile();
 
+        System.out.println(profile);
+
         //then
         assertThat(profile).isEqualTo(expectedProfile);
 
@@ -41,6 +43,8 @@ public class ProfileControllerUnitTest {
 
         String profile = controller.profile();
 
+        System.out.println(profile);
+
         assertThat(profile).isEqualTo(expectedProfile);
     }
 
@@ -54,6 +58,8 @@ public class ProfileControllerUnitTest {
 
         //when
         String profile = controller.profile();
+
+        System.out.println(profile);
 
         //then
         assertThat(profile).isEqualTo(expectedProfile);
