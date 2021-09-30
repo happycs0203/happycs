@@ -5,7 +5,7 @@ ABSDIR=$(dirname $ABSPATH)
 source ${ABSDIR}/profile.sh
 source ${ABSDIR}/switch.sh
 
-IDLE_PORT=$(finc_idle_port)
+IDLE_PORT=$(find_idle_port)
 
 echo "> Health Check START!"
 echo "> IDLE_PORT: $IDLE_PORT"
@@ -34,6 +34,6 @@ do
     exit 1
   fi
 
-  echo "> Health check 연결 실패. 재수도..."
+  echo "> Health check 연결 실패. 재시도..."
   sleep 10
 done
