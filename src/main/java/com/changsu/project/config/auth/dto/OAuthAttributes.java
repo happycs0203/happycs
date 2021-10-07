@@ -1,4 +1,4 @@
-package com.changsu.project.web.dto;
+package com.changsu.project.config.auth.dto;
 
 import com.changsu.project.domain.user.Role;
 import com.changsu.project.domain.user.User;

@@ -1,9 +1,9 @@
-package com.changsu.project.service.posts;
+package com.changsu.project.config.auth;
 
 import com.changsu.project.config.auth.dto.SessionUser;
 import com.changsu.project.domain.user.User;
 import com.changsu.project.domain.user.UserRepository;
-import com.changsu.project.web.dto.OAuthAttributes;
+import com.changsu.project.config.auth.dto.OAuthAttributes;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
